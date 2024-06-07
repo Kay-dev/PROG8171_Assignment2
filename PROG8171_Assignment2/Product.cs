@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace PROG8171_Assignment2
 {
-    internal class Product
+    public class Product
     {
+        public Product() { }
+
         public Product(int id, string name, double price, int stock)
         {
             ProductID = id;
